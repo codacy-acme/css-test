@@ -1,0 +1,89 @@
+
+/************HEADER************/
+#mainbody_Wrapper {
+    margin: 5px;
+}
+
+#navMenu {
+    background: #661a00;
+}
+
+#titleHeader {
+    position: relative;
+    margin: 5px;
+}
+
+#CBPatch {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 100;
+}
+
+#pnlFooter {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/************Nav Bar ************/
+.NavMenu_Static {
+    font-family: Arial;
+}
+
+.NavMenuItem_Static {
+    width: 150px;
+    color: #ffffff;
+    font-size: 14pt;
+    vertical-align: middle;
+}
+
+
+.NavMenu_Dynamic {
+    background-color: #661a00;
+    border: 1px solid #ffffff;
+}
+
+.NavMenuItem_Dynamic {
+    background-color: #661a00;
+    color: #ffffff;
+}
+
+.NavMenuItem_Dynamic a[disabled], .NavMenuItem_Dynamic a[disabled]:hover {
+    color: gray;
+    cursor: default;
+}
+
+/* override styles in the ASP Nav Item. 'emptyLink' class is added in jquery on header.ascx*/
+#navMenu .emptyLink {
+    cursor: default !important;
+}
+
+#navMenu a:hover {
+    color: #ffe96d;
+    text-decoration: none;
+}
+
+#navMenu a.emptyLink:hover {
+    color: #4cff00;
+    text-decoration: none;
+}
+
+
+/* prevent screen flicker when navigating menu items*/
+#navMenu {
+    height: 24px
+}
+
+#navMenu ul li ul {
+    display: none;
+}
+
+#navMenu li {
+    right: 0;
+    position: absolute;
+    top: 0
+}
+
+#MAQHNavigation {
+    padding: 2px;
+}

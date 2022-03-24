@@ -1,0 +1,53 @@
+
+/*body {background-color: #ededed !important;}*/
+body {
+    background-color: #FFFFFF !important;
+}
+
+/*.container {border: none !important;}*/
+.container {
+    padding: 0px 15px 10px 15px;
+    background:#FFFFFF;
+}
+
+/******* Nav Menu *******/
+#navMenu {
+    position: static !important;
+    top: 100%;
+    right: 100%;
+    left: 100%;
+}
+
+#MAQHNavigation{
+    display: none;
+}
+
+#pageWrapper {
+    left: 100%;
+    top: 100%;
+    bottom: 100%;
+    right: 100%;
+    position: static;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#div_timeline {
+    background: none;
+    z-index: 1;
+    position: static;
+    padding: 0px 10px 0px 10px;
+    top: 100%;
+    left: 100%;
+    bottom: 100%;
+    width: 100%;
+    overflow-y: auto;
+    border-right: none;
+}
+
+/****** CTS tables ******/
+.headerTable td, .gradingTable td {
+    white-space: normal;
+    padding-right: 0px;
+}
+

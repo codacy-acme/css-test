@@ -1,0 +1,52 @@
+﻿/*tab styles */
+.tabbedcontainer{
+	width: 100%;
+}
+
+ul.tabs{
+	margin: 0px 0px -1px 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	border-top:1px solid #d5d5d5;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+	border: 1px solid #d5d5d5;
+}
+
+/* Other styles */
+.addBtnStyle    /*add new btn for job history/edu history/agency history */ 
+{ 
+  margin-left:8px;
+ }
+.NewRowsTable 
+{
+    border-spacing: 5px;
+    background: #d5d5d5;
+}
+.ExCatTable, .ExCatTable tr, .ExCatTable td, .ExCatTable th
+{
+    padding: 2px 15px;
+    border: 0px;
+}

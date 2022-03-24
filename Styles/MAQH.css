@@ -1,0 +1,358 @@
+
+/************ GridViews and Containers ************/
+.accessible { 
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+}
+
+.ServerInfoPanel { /*pink bkg color when displayign server debug/impersonate panel */
+    background: #ffbfbe;
+}
+
+.container {
+    background: #ededed;
+	color: #222;
+	padding: 10px 15px;
+	border: 1px solid #d5d5d5;
+}
+
+.container_tint {
+    background: #f6f6f6; /*lighter*/
+}
+
+.ContainerShade {
+    background: #d5d5d5; /*darker*/
+} 
+
+.bkgShadeBlue {
+    background: #cccce0;
+}
+
+.gridView_parent { 
+    border: 0px; 
+}
+
+.gridView_parent td, gridView_parent tr { 
+    border: 0px; 
+}
+
+.gridView_parent th {
+    background: #d5d5d5;
+    border: 0px;
+    padding: 2px 5px;
+}
+
+.gridView_child { 
+    width: 100%; 
+}
+
+.gridView_child th, .gridView_child td { 
+    padding: 0px 5px 0px 5px;
+}
+
+#chk {
+    font: bold 8pt Calibri;
+}
+
+.PageHead {
+    font: 24pt Calibri;
+    vertical-align: middle;
+    color: #000066;
+    text-align: center;
+}
+
+.BigErrorText {
+    font: bold 14pt Calibri;
+    color: red
+}
+
+.ErrorText {
+    font: bold 12pt Calibri;
+    color: red
+}
+
+.SmallError {   
+    font: 8pt Calibri;
+    color: red;
+}
+
+.PageHeadSmall {	
+    font: 20pt Calibri;
+	vertical-align: middle;
+	color: #000066;
+	text-align: center;
+}
+
+.PageSubHead {    
+    font: bold 18pt Calibri;
+    color: #006666
+}
+
+.PageSubHeadSmall {    
+    font: 18pt Calibri;
+    color: #006666
+}
+
+.PrivacyAct { 
+    color: #000066; 
+}
+
+.Large { 
+    font: 14pt Calibri;
+}
+
+.Normal { 
+    font: 12pt Calibri;
+}
+
+.Small {
+    font: 8pt Calibri;
+}
+
+.Small td select input {
+    font: 8pt Calibri;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.XSmall {
+    font: 7pt Calibri;
+}
+
+.SmallBold {
+    font: bold 8pt Calibri;
+}
+
+.Info {
+    font: bold 10pt Calibri;
+}
+
+.SmallInfo {
+    font: bold 8pt Calibri;
+}
+
+.InfoLo {
+    font: 10pt Calibri;
+}
+
+.SmallInfoLo {
+    font: 8pt Calibri;
+}
+
+.Underline {
+    text-decoration: underline;
+}
+
+.faded { 
+    color: #d5d5d5;
+}
+
+/************/
+.wide20 { 
+    margin: 0px;
+    width: 20%;
+    border: 0px;
+    padding: 0px;
+}
+
+.wide80 {
+    margin: 0px;
+    width: 80%;
+    border: 0px;
+    padding: 0px;
+}
+
+.FullWidth {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+.MainWidth {
+    margin: 0px;
+    width: 925px;
+    border: 0px;
+    padding: 0px;
+}
+
+.Left { 
+    text-align: left;        
+}
+
+.Center {
+    text-align: center;
+}
+
+.Right {
+    text-align: right;
+}
+
+.Top { 
+    vertical-align: top;
+}
+
+.Middle{
+    vertical-align: middle;
+}
+
+.Bottom { 
+    vertical-align: bottom;
+}
+
+.floatRight { 
+    float:right;
+}
+
+.floatLeft {
+    float:left;
+}
+
+.clearBoth { 
+    clear:both;
+}
+
+.Half { 
+    width: 50%;
+}
+
+.Outlined {
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid maroon;
+}
+
+.Bordered {
+    border: 1px solid Gray;
+}
+
+.PrivateHead { 
+    font-weight: 500;        
+    font-size: medium;
+    color: #0f3939;
+    font-style: normal;
+    font-family: Calibri;
+    font-variant: normal;
+}
+	
+/************Data Grid Styles************/
+.DataGrid a {
+
+}
+
+.DataGrid td {
+    border: solid 1px Goldenrod;
+	text-align: center;
+}
+
+.DataGridHeader td {
+    border: solid 1px Goldenrod;
+	background-color: tan;
+	font-weight: bold;
+	text-align: center;
+}
+
+.DataGridAltItem a {
+
+}
+
+.DataGridAltItem td {
+    border: solid 1px Goldenrod;
+	background-color: PaleGoldenrod;
+	text-align: center;
+}
+
+.DataGridPrint {
+    border: solid 1px Black;  
+	text-align: center;
+}
+
+.DataGridPrint td th { 
+    border: solid 1px Black;
+}
+
+.DataGridPrint a {	
+	color:Black;
+	text-decoration:none;
+}
+
+.DataGridHeaderPrint td th {
+    border: solid 1px Black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.DataGridAltItemPrint a {
+	color:Black;
+	text-decoration:none;
+}
+
+.DataGridAltItemPrint td th {
+    border: solid 1px Black;
+}
+
+/************Elements************/
+form { 
+    font-family: Calibri;
+}
+
+body {
+    color: black;
+    font: 12pt Calibri;
+    background-color: #faf6f6;        
+    margin:0px;
+}
+
+table {
+    padding-right: 0px;        
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left
+}
+
+th { 
+    font: bold; 
+    text-align: center;
+}
+
+input[type="button"], input[type="submit"] { /*buttons input*/
+    background-color: #d5d5d5;
+    border: solid 1px #d5d5d5;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    font: 12pt Calibri;        
+}
+
+select, input[type="text"], textarea {
+    border: solid 1px #d5d5d5;
+    font: 12pt Calibri; 
+}
+
+input[type="text"][disabled], select[disabled], textarea[disabled] {   /*disabled elements */
+    background-color: #ECECEC;
+    border: solid 1px #d5d5d5; 
+    color: #000000;
+    pointer-events:none;
+}
+
+input[type="button"][disabled], input[type="submit"][disabled] {
+    border: solid 1px #d5d5d5; 
+    color: #CCCCCC;
+    pointer-events:none;
+}  
+
+a {    
+    color: #992700;
+}
+
+a:hover {    
+    color: #000066;
+}

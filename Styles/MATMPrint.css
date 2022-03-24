@@ -1,0 +1,9 @@
+
+#container { margin: 10px; overflow: visible; }
+.relativeContainer {position:absolute; width: 100%; height: 768px; overflow: visible; border: 0px;}
+.fixedTB {position: absolute; left: 0px; top: 0px; z-index: 11;  }
+.leftContainer {position: absolute; left: 0px; height: 768px; width: 152px; overflow:visible;}
+.rightContainer {position: relative; padding-left: 151px; top: auto; max-width:1328px; overflow: visible;}
+.leftSBWrapper {position: relative; left: 0px; top: 0px; z-index: 10; }
+.topSBWrapper {position: relative; left: 0px; top: 0px; z-index: 10; }
+.SBWrapper {max-width:1328px; height: 768px; overflow:visible; padding-right:17px;}

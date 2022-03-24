@@ -1,0 +1,130 @@
+﻿/*Master Astronaut Training Matrix Styles*/
+#container {
+	margin: 10px; 
+	overflow: hidden;
+}
+
+.relativeContainer {
+	position: relative; 
+	width: 100%; 
+	height: 768px; 
+	overflow: hidden; 
+	border: 0px;
+}
+
+.fixedTB {
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: 11;
+}
+
+.leftContainer {
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 152px; 
+	overflow: hidden;
+	background:#ededed;
+}
+
+.rightContainer {
+	position: relative; 
+	padding-left: 151px; 
+	top: 0px; 
+	max-width: 1328px; 
+	overflow: hidden; 
+	background: #ededed;
+}
+
+.leftSBWrapper {
+	position: relative; 
+	left: 0px; 
+	top: 0px; 
+	z-index: 10; 
+}
+
+.topSBWrapper {
+	position: relative; 
+	left: 0px; 
+	top: 0px; 
+	z-index: 10;
+}
+
+.SBWrapper {
+	max-width:1328px; 
+	max-height: 768px; 
+	overflow: auto; 
+	padding-right:17px;
+}
+
+.disabled {
+	font: lighter;
+	font-weight: lighter;
+	color: #cccccc;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.matm { 
+	font: 9pt Calibri;
+	white-space: nowrap;
+}
+
+.matm td {
+	font: 9pt Calibri; 
+	white-space: nowrap;
+}
+
+.matm td > a {
+	font: 9pt Calibri; 
+	white-space: nowrap;
+}
+
+.matmAlt {
+	font: 9pt Calibri;
+	white-space: nowrap;
+	background-color: #f0f0f0;
+}
+
+.matmAlt td {
+	font: 9pt Calibri;
+	white-space: nowrap;
+	background-color: #f0f0f0;
+}
+
+.matmHeadLvl1 {
+	font: bold 9pt Calibri;
+	vertical-align: bottom;
+	height: 20px;
+	white-space: nowrap;
+}
+
+.matmHeadLvl2 {
+	font: bold 9pt Calibri;
+	vertical-align: bottom;
+	height: 20px;
+	white-space: nowrap;
+}
+
+.color0fcf3f {
+	background-color: #0fcf3f;
+}
+
+.colorcfff33 {
+	background-color: #cfff33;
+}
+
+.colorffff00 {
+	background-color: yellow;
+}
+
+.colorff9f00 {
+	background-color: #ff9f00;
+}
+
+.colorcf6666 {
+	background-color: #cf6666;
+}
